@@ -2,73 +2,75 @@
 <html>
 <head>
 	<title>Blake Knight | Resume</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="styles/css/bootstrap.css" rel="stylesheet">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="styles/css/bootstrap.css" rel="stylesheet">
+	<link href="styles/css/bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/css/font-awesome.css">
+
 	<style type="text/css">
-		body { padding:20px 60px 0 60px; background: white; font-size: 22px; }
-		legend { padding-top: 5px; margin-bottom: 0px; font-size: 28px; border-bottom: 1px solid #555; }
-		h4 { font-size: 23px; }
+		body { padding:60px 60px 0 60px; background: white; font-size: 22px; }
+		legend { margin-top: 0px; margin-bottom: 0px; font-size: 28px; border-bottom: 1px solid #555; }
+		h4 { font-size: 23px; margin: 0; }
 		.centered { text-align:center; }
-		.tabbed { padding-left: 50px; }
+		.tabbed { margin-left: 50px; }
 		.dashed { border-top:1px dashed #555; margin-top:10px; }
 		hr.big { border-bottom:2px solid; }
+		.section-edu { margin-bottom: 26px; }
+		h1 { font-size: 55px; }
 	</style>
-	
-	<link href="styles/css/bootstrap-responsive.css" rel="stylesheet"> <link rel="stylesheet" type="text/css" href="styles/css/font-awesome.css">
 </head>
 
 <body>
 	<div class="container">
-		<h1 class="centered">Charles Blake Knight</h1>
+		<!-- <h1 class="centered">Charles Blake Knight</h1>
 		<hr class="big">
-		
+
 		<div class="row-fluid" id="contact-info">
 			<span class="span4 centered">cbk117@msstate.edu</span>
 			<span class="span4 centered">58 CR 3520, Tishomingo, MS 38873</span>
 			<span class="span4 centered">(662) 279-4076</span>
+		</div> -->
+		<div class="row-fluid">
+			<div class="span7"><h1>Charles Blake Knight</h1></div>
+			<div class="span5" style="text-align:right">
+				<div>58 CR 3520, Tishomingo, MS 38873 <i class="icon-map-marker"></i></div>
+				<div>cbk117@msstate.edu <i class="icon-envelope"></i></div>
+				<div>http://blakek.me/ <i class="icon-globe"></i></div>
+				<div>(662) 279-4076 <i class="icon-phone"></i></div>
+			</div>
 		</div>
-		
-		<div class="row-fluid" id="education">
-			<h2><legend>Education</legend></h2>
-			<b>Mississippi State University</b> &minus; Mississippi State, MS
-			<span class="pull-right">January 2011 - December 2013</span>
-			<br>
-			<span>B.B.A., Management Information Systems &amp; Marketing</span>
-			<div>MIS Program GPA: 3.97 &nbsp;&nbsp;/&nbsp;&nbsp; GPA: 3.74</div>
-			<div>
-				<div class="tabbed"> <b>Honors and Activities:</b>
-					<ul>
-						<li>Graduated with honors</li>
-						<li>Chancellor's Honor Roll four times; Dean's Honor Roll twice</li>
-						<li>Member of Beta Gamma Sigma &minus; among top of class</li>
-					</ul>
-				</div>
-			</div>
-			
-			<br>
 
-			<b>University of Mississippi</b> &minus; University, MS
-			<span class="pull-right">January 2011 - December 2013</span>
-			<br>
-			<span>B.B.A., Management Information Systems &amp; Marketing</span>
-			<div>MIS Program GPA: 3.97 &nbsp;&nbsp;/&nbsp;&nbsp; GPA: 3.74</div>
-			<div>
-				<div class="tabbed"> <b>Honors and Activities:</b>
-					<ul>
-						<li>Graduated with honors</li>
-						<li>Chancellor's Honor Roll four times; Dean's Honor Roll twice</li>
-						<li>Member of Beta Gamma Sigma &minus; among top of class</li>
-					</ul>
+		<div class="row-fluid" id="education">
+			<div class="section-edu">
+				<h2><legend>Education</legend></h2>
+				<strong>Mississippi State University</strong> &minus; Starkville, MS
+				<div class="pull-right">Anticipated graduation: August 2015</div>
+				<div>Master of Science in Information Systems</div>
+				<div>Current GPA: 4.0</div>
+			</div>
+
+			<div class="section-edu">
+				<strong>University of Mississippi</strong> &minus; University, MS
+				<div class="pull-right">January 2011 - December 2013</div>
+				<div>B.B.A., Management Information Systems &amp; Marketing</div>
+				<div>MIS Program GPA: 3.97 &nbsp;&nbsp;/&nbsp;&nbsp; GPA: 3.74</div>
+				<div>
+					<div class="tabbed"> <b>Honors and Activities:</b>
+						<ul>
+							<li>Graduated with honors</li>
+							<li>Chancellor's Honor Roll four times; Dean's Honor Roll twice</li>
+							<li>Member of Beta Gamma Sigma &minus; among top 10% of class</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			
-			<br>
-		
-			<span>
-				<b>Northeast Mississippi Community College</b> &minus; Booneville, MS
-				<br>
+
+			<div class="section-edu">
+				<strong>Northeast Mississippi Community College</strong> &minus; Booneville, MS
+				<div class="pull-right">May 2008 - December 2010</div>
 				<div>Major: Business Administration</div>
-				<div>GPA: 3.41 <span class="pull-right">May 2008 - December 2010</span></div>
+				<div>GPA: 3.41</div>
 				<div>
 					<div class="tabbed"> <b>Honors and Activities:</b>
 						<ul>
@@ -77,74 +79,71 @@
 						</ul>
 					</div>
 				</div>
-			</span>
-		</div>
-		
-		<div class="row-fluid" id="tech-skills">
-			<h2><legend>Skills</legend></h2>
-			<div class="span3">Cross-platform native application development using Qt and GTK+ toolkits</div>
-			<div class="span3">Professional-looking website design featuring interactive content and custom styles for mobile devices</div>
-			<div class="span3">Windows application development using .NET and Win32</div>
-			<div class="span3" style="width:220px;">Experienced working in both Unix and Windows environments</div>
-			<div class="span12" style="min-height:0px;"></div>
-			
-			<div class="span3"><h4>Languages</h4></div>
-			<div class="span11">
-				<div class="tabbed"> <i>Most Experienced With &minus; </i>C, C++, C#, PHP, Unix shell scripting</div>
-				<div class="tabbed"> <i>Experienced With &minus; </i>Python, JavaScript (including jQuery library), CSS, SQL, Visual Basic </div>
-				<div class="tabbed"> <i>Also Worked With &minus; </i>Java, Ruby </div>
 			</div>
 		</div>
-		
+
+		<div class="row-fluid" id="tech-skills">
+			<h2><legend>Skills</legend></h2>
+			<div class="span3">Developing with JavaScript (jQuery and Node.js), C, C#, Python, Bash shell scripting, and others</div>
+			<div class="span3">Professional, mobile-first website design using tools such as yeoman, bower, and grunt</div>
+			<div class="span3">Managerial-level dashboard creation showing key company-wide information in a way that's easily and quickly understood</div>
+			<div class="span3" style="width:220px;">Very comfortable working in UNIX-like environments and performing common Linux system administration tasks</div>
+
+			<!-- <div class="span3"><h4>Languages</h4></div> -->
+			<!-- <div class="span11">
+				<div><em>Most Experienced With &minus;</em> CSS, JavaScript (including jQuery and Node.js), C#, PHP, various shell scripting</div>
+				<div><em>Experienced With &minus;</em> C, Python, SQL, Visual Basic</div>
+				<div><em>Also Worked With &minus;</em> Java, Ruby, Perl</div>
+			</div> -->
+		</div>
+
 		<div class="row-fluid" id="experience">
 			<h2><legend>Experience</legend></h2>
 			<div>
-				<div>
-					<h4>Spectrum Corporation &minus; Selmer, TN <span class="pull-right">May 2009 - Present</span></h4>
-				</div>
-				<div><em>Administrative Assistant (Promoted from Accounts Payable Clerk, August 2010)</em> </div>
+				<h4>Mississippi State University &minus; Starkville, MS <span class="pull-right">August 2014 - Current</span></h4>
+				<div><em>Web Development Graduate Assistant</em></div>
 				<ul>
-					<li>
-						Created applications that parsed database information and created formatted Excel workbooks - automating
-						many hours of manual processes in a few minutes
-					</li>
-					<li>
-						Developed a variety of scripts that reformatted, reorganized, and restructured business documents, including financial statements</li>
-					</li>
-					<li>
-						Communicated with, listened to, and assisted customers to effectively serve their needs and correct problems
-					</li>
+					<li>Design, update, and maintain secure websites for various departments throughout the university using a range of web technologies and image manipulation applications</li>
 				</ul>
 			</div>
-			
-			<div style="minimum-height:0px;height:0px;border-bottom:1px dotted #aaa;"></div>
+
 			<div>
-				<div>
-					<h4>University of Mississippi &minus; University, MS <span class="pull-right">January 2013 - May 2013</span></h4>
-				</div>
-				<div> <em>Student</em> </div>
+				<h4>FNC &minus; Oxford, MS <span class="pull-right">June 2014 - August 2014</span></h4>
+				<div><em>Client Services Intern</em></div>
 				<ul>
-					<li>Designed and developed an interactive, database-driven <a href="http://umgradadmit.sf.net/">website</a>
-						targeted to be used by the MBA admissions office designed to increase productivity of admissions users
-						and efficiently serve any graduate-level students
-					</li>
-					<li>Implemented an Android application that would allow business school leaders to check real-time statistics
-						about the school and graduate students
-					</li>
-					<li>Conceptualized and composed a <a href="http://youtu.be/ZU5NBDq2RjI">video</a> describing the project
-						for the business school leaders; result chosen as one of the top three in the class
-					</li>
+					<li>Worked as part of a team of interns to analyze a real business problem and design a solution; produced a deliverable prototype that automates weekly, mundane tasks</li>
+					<li>As a team, designed and created a new system featuring dashboards for mangers, customizable native apps for employees, and a flexible API for extending the system which should reduce time overhead for almost all employees</li>
 				</ul>
 			</div>
+
+			<div>
+				<h4>Spectrum Corporation &minus; Selmer, TN <span class="pull-right">May 2009 - June 2014</span></h4>
+				<div><em>Administrative Assistant (Promoted from Accounts Payable Clerk, August 2010)</em></div>
+				<ul>
+					<li>Created applications that parsed database information and created formatted Excel workbooks - automating many hours of manual processes in a few minutes</li>
+					<li>Developed a variety of scripts that reformatted, reorganized, and restructured business documents, including company financial statements</li>
+				</ul>
+			</div>
+
+<!-- 			<div>
+				<h4>University of Mississippi &minus; University, MS <span class="pull-right">January 2013 - May 2013</span></h4>
+				<div><em>Student</em></div>
+				<ul>
+					<li>Designed and developed an interactive, database-driven website targeted to be used by the MBA admissions office designed to increase productivity of admissions users and efficiently serve any graduate-level students
+					</li>
+					<li>Implemented an Android application that would allow business school leaders to check real-time statistics about the school and graduate students</li>
+					<li>Conceptualized and composed a <a href="http://youtu.be/ZU5NBDq2RjI">video</a> describing the project for the business school leaders; result chosen as one of the top three in the class</li>
+				</ul>
+			</div> -->
 		</div>
-		
-		<div class="row-fluid" id="the_end" style="padding-top:30px;">
+
+		<div class="row-fluid" id="the_end" style="padding-top:50px;">
 			<div class="span4 dashed"></div>
 			<div class="span4"><p class="text-center"><em>References available upon request</em></p></div>
 			<div class="span4 dashed"></div>
 		</div>
 	</div> <!-- end container -->
-	
+
 	<script src="styles/js/jquery.js"></script> <script src="styles/js/bootstrap.js"></script>
 </body>
 </html>
