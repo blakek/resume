@@ -1,0 +1,35 @@
+body {
+	padding:60px 60px 0 60px; background: white; font-size: 22px;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+h4 {
+	font-size: 23px; margin: 0;
+}
+
+legend {
+	margin-top: 0px; margin-bottom: 0px; font-size: 28px; border-bottom: 1px solid #555;
+}
+
+.centered {
+	text-align:center;
+}
+
+.tabbed {
+	margin-left: 50px;
+}
+
+.dashed {
+	border-top:1px dashed #555; margin-top:10px;
+}
+
+hr.big {
+	border-bottom:2px solid;
+}
+
+.section-edu {
+	margin-bottom: 26px;
+}
