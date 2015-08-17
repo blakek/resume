@@ -9,15 +9,19 @@ h1 {
 }
 
 h4 {
-	font-size: 23px; margin: 0;
+	font-size: 23px;
+	margin: 0;
 }
 
 legend {
-	margin-top: 0px; margin-bottom: 0px; font-size: 28px; border-bottom: 1px solid #555;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 28px;
+	border-bottom: 1px solid #555;
 }
 
 .centered {
-	text-align:center;
+	text-align: center;
 }
 
 .tabbed {
@@ -25,11 +29,12 @@ legend {
 }
 
 .dashed {
-	border-top:1px dashed #555; margin-top:10px;
+	border-top: 1px dashed #555;
+	margin-top: 10px;
 }
 
 hr.big {
-	border-bottom:2px solid;
+	border-bottom: 2px solid;
 }
 
 .section-edu {
