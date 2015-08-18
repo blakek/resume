@@ -38,5 +38,14 @@ hr.big {
 }
 
 .section-edu {
-	margin-bottom: 26px;
+	margin-bottom: 1em;
+}
+
+.amp {
+	font-family: 'Baskerville';
+	font-style: italic;
+}
+
+.amp:before {
+	content: '&';
 }
