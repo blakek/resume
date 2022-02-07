@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.27em;
+  font-size: 1.4em;
   border-width: 0 0 1px 0;
   border-style: solid;
 
@@ -61,12 +61,12 @@ hr.big {
 }
 
 .amp {
-  font-family: 'Baskerville';
+  font-family: "Baskerville";
   font-style: italic;
 }
 
 .amp:before {
-  content: '&';
+  content: "&";
 }
 
 .position,
